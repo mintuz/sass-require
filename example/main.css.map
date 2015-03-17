@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEC,WAAY;EACX,OAAO,EAAE,KAAK;EACd,gBAAgB,EAAE,KAAK;;ACAxB,WAAY;EACX,OAAO,EAAE,KAAK;EACd,gBAAgB,EAAE,GAAG;;ACFtB,WAAY;EACX,OAAO,EAAE,KAAK;EACd,gBAAgB,EAAE,MAAM",
+"sources": ["_dep-object.scss","_object-one.scss","_object-two.scss"],
+"names": [],
+"file": "main.css"
+}

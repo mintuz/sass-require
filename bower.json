@@ -1,0 +1,25 @@
+{
+  "name": "sass-require",
+  "version": "1.0.0",
+  "authors": [
+    "Adam Bulmer <mintuz1990@gmail.com>"
+  ],
+  "description": "Sass Require, only import your object once",
+  "main": "_sass-require.scss",
+  "keywords": [
+    "Sass",
+    "Sass",
+    "Require",
+    "Scss",
+    "Import"
+  ],
+  "license": "MIT",
+  "homepage": "http://mintuz.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

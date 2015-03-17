@@ -1,0 +1,8 @@
+$components: () !default;
+
+@mixin define($name) {
+	@if (index($components, $name) == null) {
+		$components: append($components, $name) !global;
+		@content;
+	}
+}

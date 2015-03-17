@@ -1,0 +1,10 @@
+@import 'dep-object';
+
+@include define('object-one') {
+
+	.object-one {
+		display: block;
+		background-color: red;
+	}
+
+}

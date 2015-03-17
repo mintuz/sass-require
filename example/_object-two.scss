@@ -1,0 +1,10 @@
+@import 'dep-object';
+
+@include define('object-two') {
+
+	.object-two {
+		display: block;
+		background-color: yellow;
+	}
+
+}
