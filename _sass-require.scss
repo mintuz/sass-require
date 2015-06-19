@@ -1,8 +1,10 @@
-$sass-require__components: () !default;
+@if not global-variable-exists(sass-require__components) {
+  $sass-require__components: () !global;
+}
 
 @mixin define($name) {
-	@if (index($sass-require__components, $name) == null) {
-		$sass-require__components: append($sass-require__components, $name) !global;
-		@content;
-	}
+  @if (index($sass-require__components, $name) == null) {
+    $sass-require__components: append($sass-require__components, $name) !global;
+    @content;
+  }
 }
