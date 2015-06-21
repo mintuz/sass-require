@@ -8,6 +8,9 @@ the amount of code.
 This mixin solves this by outputting the code only once. You can import sass-require in each
 bower_component, it won't care.
 
+## Install
+`bower install sass-require --save`
+
 ## Usage
 
 Define an scss object
